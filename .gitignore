@@ -1,0 +1,24 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# datasets
+dataset/
+cifar-10/
+cifar-100/
+cifar-10-batches-py/
+cifar-100-python/
+cifar-n-labels/
+*.json
+
+# outputs
+**/checkpoint/*
+!**/checkpoint/.gitkeep
+stats/
+stats_webvision/
+*.pth
+*.pth.tar
+*.npz
+*.log
+benchmark_*.csv
+benchmark_figs/
